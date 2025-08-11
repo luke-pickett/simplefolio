@@ -18,11 +18,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Luke Pickett | Game Developer</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="Luke Pickett, C#, Lua, Java" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Luke Pickett | Game Developer" />
 
     <link
       rel="stylesheet"
@@ -46,9 +46,9 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Luke Pickett</span>
           <br />
-          I'm the Unknown Developer.
+          I am a Game Developer.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -63,34 +63,51 @@
     <section id="about">
       <div class="container">
         <h2 class="section-title load-hidden">About me</h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
+        <div class="row about-wrapper gap-5">
+          <div class="col-md-5 col-sm-12 d-flex">
+            <div class="about-wrapper__image load-hidden gap-2  ">
               <img
                 alt="Profile Image"
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="assets/pfp.jpg"
                 alt="Profile Image"
               />
+              <video class="img-fluid rounded shadow-lg" controls width="50%">
+                <source src="assets/ElevatorPitch_LukePickett.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
+            
           </div>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-6 col-sm-12 mb-2">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                From a young age I have been interested in game developement, I would dabble into source engine
+                modding and the roblox platform. Later, once I began my computer science education, I would discover
+                the Unity Engine and would experince that passion all over again. I have developed many projects,
+                both personal and professional, since then.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                I think that what makes anyone skilled at their work is two things, confidence and capability.
+                This applys to both leadership and non-leadership positions as we cannot address capability without
+                the confidence to push outwards. 
+              </p>
+              <p class="about-wrapper__info-text fs-2">
+                My personal values include:
+                <ul class="fs-3">
+                  <li>Smart, long term infrastructure over quick and easy options</li>
+                  <li>Honesty in the workplace</li>
+                  <li>Assisting others where needed</li>
+                </ul>
               </p>
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="assets/Luke_Pickett_Resume.pdf"
                 >
                   View Resume
                 </a>
@@ -112,19 +129,21 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Valor</h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                    A game released on the Roblox platform in late 2022, Valor is a medieval team-based
+                    action game. It features large scale AI battles and seperate player controlled gameplay.
+                    I codeveloped this game with user Brick_man and a large part of this project was 
+                    both the grid based map system and the pathfinding needed for the npcs to navigate that
+                    system. Since the map was generated uniquely we had to use a custom A* pathfinding algorithm.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://www.roblox.com/games/9086726357/Valor"
                 >
                   See Live
                 </a>
@@ -132,7 +151,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href=""
                 >
                   Source Code
                 </a>
@@ -140,7 +159,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://www.roblox.com/games/9086726357/Valor" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -151,7 +170,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/valor.png"
                     />
                   </div>
                 </a>
@@ -164,19 +183,20 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Pi Website</h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    The Pi website was a attempt at learning react and persuing one of my personal curiosities.
+                    The website is made using mostly the pure react library and the github pages package. As
+                    far as content goes it covers several different ways to calculate Pi and incorperates a
+                    geogebra interactable demonstration.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://luke-pickett.github.io/pi-website-react/"
                 >
                   See Live
                 </a>
@@ -184,7 +204,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/luke-pickett/pi-website-react"
                 >
                   Source Code
                 </a>
@@ -192,7 +212,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://luke-pickett.github.io/pi-website-react/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -203,7 +223,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/pi_website.png"
                     />
                   </div>
                 </a>
@@ -216,29 +236,16 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Work Experince at VR/AR Studio</h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+                    In early 2025 I stated working at the VR/AR studio at Southern Utah University.
+                    It was a lot more team-based compared to my other experinces and we had to communicate
+                    to successfully finish a project. The job was maining working within the Unity game
+                    engine and required that I build the portions of the assigned projects, this sometimes
+                    required asset creation from scratch.
                   </p>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
@@ -254,7 +261,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/vr-classroom.jpg"
                     />
                   </div>
                 </a>
@@ -272,13 +279,14 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">If you are interested in high quality work, 
+            please feel free to contact</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:lpickett2004@gmail.com"
+            >Contact Email</a
           >
         </div>
       </div>
@@ -292,13 +300,10 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/luke-pickett/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/luke-pickett" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
